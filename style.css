@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0%;
+
+}
+
+
+
+body{
+display: flex;
+
+ overflow: hidden; 
+align-items: center;
+justify-content: center;
+align-content: center;
+justify-items: center;
+padding: 140px;
+size : 10px;
+
+height: 50vh;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 120%;
+background-image: url("https://mcdn.wallpapersafari.com/medium/76/19/23Uoah.jpg");
+
+
+
+/* background-size: contain; */
+
+background-position: top;
+
+ background-size: cover; 
+/* background-repeat: no-repeat; */
+background-color: #2222;
+}
+
+.container{
+     background-color: #000000d0; 
+       
+    opacity: 0.9;
+     /* margin: 10em; */
+    padding: 1.5em; 
+    border-radius: 20px;
+    text-align: center;
+    
+    width: 100%;
+    max-width: 420px;
+    color:aliceblue;
+    height: 70vh;
+   size: 20px;
+   align-items: center;
+   align-content: center;
+   justify-items: center;
+   justify-content: center;
+   background-position: center;
+   height: min-content;
+
+
+
+
+
+}
+.search{
+display: flex;
+    align-content: center ;
+    justify-content: center;
+
+}
+button{
+    cursor: pointer;
+    margin:1em;
+    outline: none;
+    height: 40px;
+    width: 60px;
+    border-radius: 100%;
+    background: #7c7c7c2b;
+    color:azure;
+
+    border: none;
+}
+
+.sbar{
+    border: none;
+    font-family: sans-serif;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    background: #7c7c7c2b;
+    color:azure;
+    font-size: 80%;
+    margin: 1em;
+    
+   
+    transition: 0.2s ease-in-out;
+    width:100%;
+
+}
+button:hover{
+    background: #7c7c7c7b;
+    color:white;
+
+}
+.temp{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0%;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: 300;
+    
+}
+
+h3{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+    font-weight: 50px;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 50px;
+    height: 50px;
+    font-weight: 100px;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+day2{
+    float: left;
+}
+.daywise{
+    
+    display: flex;
+    width: 50%;
+   padding: 10px;
+    align-items: center;
+    margin: 10px;
+    opacity: 0.799;
+    
+     
+}
+
+.day1{
+    background-color: #fff;
+    border: 0.1px solid ;
+    border-radius: 10%;
+    color: black;
+    opacity: 0.8;
+    justify-content:space-evenly;
+    align-content: center;
+    width: 50px;
+    margin: 0.5em;
+    padding: 0.5em;
+    justify-items: center;
+
+}
+.day2{
+    background-color: #fff;
+    border: 0.1px solid ;
+    border-radius: 10%;
+    color: black;
+    opacity: 0.8;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 50px;
+    margin: 0.5em;
+    padding: 0.5em;
+    justify-items: center;
+
+
+}
+.day3{
+    background-color: #fff;
+    border: 0.1px solid ;
+    border-radius: 10%;
+    color: black;
+    opacity: 0.8;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 50px;
+    margin: 0.5em;
+    padding: 0.5em;
+    justify-items: center;
+
+
+}
+.day4{
+    background-color: #fff;
+    border: 0.1px solid ;
+    border-radius: 10%;
+    color: black;
+    opacity: 0.8;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 50px;
+    margin: 0.5em;
+    padding: 0.5em;
+    justify-items: center;
+
+
+}
+.day5{
+    background-color: #fff;
+    border: 0.1px solid ;
+    border-radius: 10%;
+    color: black;
+    opacity: 0.8;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 50px;
+    margin: 0.5em;
+    padding: 0.5em;
+    justify-items: center;
+
+
+}
+.day6{
+    background-color: #fff;
+    border: 0.1px solid ;
+    border-radius: 10%;
+    color: black;
+    opacity: 0.8;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 50px;
+    margin: 0.5em;
+    padding: 0.5em;
+    justify-items: center;
+
+
+}
+
+.icon{
+    height: 60px;
+    width: 60px;
+}
+.mon{
+    height: 20px;
+    width: 40px;
+}
+
+
+.a{
+    height: 20px;
+    width: 40px;
+
+}
+
+.b{
+    height: 20px;
+    width: 40px;
+
+}
+.c{
+    height: 20px;
+    width: 40px;
+
+}
+.d{
+    height: 20px;
+    width: 40px;
+
+}
+.e{
+    height: 20px;
+    width: 40px;
+
+}
+.day{
+    
+        color: whitesmoke;
+        justify-content: right;
+        font-size: 25px;
+        align-items: end;
+        font-weight: 50px;
+    
+}
+.date{
+    
+        color: whitesmoke;
+        justify-content: right;
+        align-items: end;
+        font-size: 20px;
+        
+        font-weight: 50px;
+    
+}
+
+
+
